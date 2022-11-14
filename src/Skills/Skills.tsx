@@ -13,6 +13,13 @@ export const Skills = () => {
                     <SkillEach title={'JS'}/>
                     <SkillEach title={'CSS'}/>
                     <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
+                    <SkillEach title={'REACT'}/>
                 </div>
             </div>
 

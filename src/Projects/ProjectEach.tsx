@@ -8,8 +8,8 @@ export const ProjectEach = (props: any) => {
                 <div className={styles.btnShowProject}>Смотреть</div>
             </div>
             <div className={styles.descriptionProject}>
-                <h3>{props.titleProject}</h3>
-                <span>{props.descriptionProject}</span>
+                <h3 className={styles.projectTitle}>{props.titleProject}</h3>
+                <span className={styles.descriptionTitle}>{props.descriptionProject}</span>
             </div>
         </div>
     )

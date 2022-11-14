@@ -13,5 +13,7 @@
     width: 300px;
     height: 370px;
     background-color: #7f9a7f;
-
+}
+.mainTitle,.fullName, .descriptionMain {
+    background-color: #e5c3c3;
 }
