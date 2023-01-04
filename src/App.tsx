@@ -6,16 +6,22 @@ import {Skills} from "./Skills/Skills";
 import {Projects} from "./Projects/Projects";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {Navigate, Route, Routes} from "react-router-dom";
+
 
 function App() {
     return (
         <div className="App">
             <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Contacts />
+            <Routes>
+                <Route path='/*' element={<Navigate to={'/main'}/>}/>
+                <Route path='/main' element={<Main/>}/>
+                <Route path='/skills' element={<Skills/>}/>
+                <Route path='/projects' element={<Projects/>}/>
+                <Route path='/contact' element={<Contacts/>}/>
+            </Routes>
             <Footer />
+
         </div>
     );
 }

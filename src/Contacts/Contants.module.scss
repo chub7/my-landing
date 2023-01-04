@@ -1,0 +1,35 @@
+@import "src/Common/css/sass/varibles";
+.Contacts {
+    height: 70vh;
+    background-color: $mainBackgroundColor;
+    @media (max-width: 750px) {
+        height: 100%;
+        background-color: #888888;
+    }
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        @media (max-width: 750px) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .form {
+            width: 500px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .textarea {
+                height: 200px;
+            }
+        }
+    }
+}
+
+
+
+
+

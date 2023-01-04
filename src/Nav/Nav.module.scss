@@ -1,0 +1,14 @@
+@import "src/Common/css/sass/varibles";
+.nav {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    .link {
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        color: $titleColor;
+        opacity: 0.8;
+    }
+}
